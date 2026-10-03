@@ -1,0 +1,32 @@
+{
+  "flame-whoosh.wav": {
+    "seconds": 1.6,
+    "lufs": -14.0,
+    "truePeak": -5.2
+  },
+  "bass-hit.wav": {
+    "seconds": 1.8,
+    "lufs": -14.5,
+    "truePeak": -1.0
+  },
+  "sizzle-bed.wav": {
+    "seconds": 8.0,
+    "lufs": -24.0,
+    "truePeak": -5.2
+  },
+  "ember-crackle.wav": {
+    "seconds": 6.0,
+    "lufs": -26.0,
+    "truePeak": -1.8
+  },
+  "text-tick.wav": {
+    "seconds": 0.09,
+    "lufs": -Infinity,
+    "truePeak": -3.0
+  },
+  "music-loop-100bpm.wav": {
+    "seconds": 19.2,
+    "lufs": -18.0,
+    "truePeak": -11.2
+  }
+}

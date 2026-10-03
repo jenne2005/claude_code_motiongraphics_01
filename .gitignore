@@ -1,0 +1,5 @@
+node_modules/
+reel/out/
+work/
+__pycache__/
+*.tmp.wav

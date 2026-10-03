@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Hungrillz Brand Film</title>
+<style>
+  @font-face { font-family: "One Slice"; src: url("../assets/fonts/OneSlice.otf") format("opentype"); }
+  @font-face { font-family: "Anton"; src: url("../assets/fonts/anton-latin.woff2") format("woff2"); unicode-range: U+0000-00FF, U+2000-206F; }
+  @font-face { font-family: "Anton"; src: url("../assets/fonts/anton-latin-ext.woff2") format("woff2"); unicode-range: U+0100-024F, U+20A0-20CF; }
+  @font-face { font-family: "Oswald"; src: url("../assets/fonts/oswald-latin.woff2") format("woff2"); font-weight: 200 700; unicode-range: U+0000-00FF, U+2000-206F; }
+  @font-face { font-family: "Oswald"; src: url("../assets/fonts/oswald-latin-ext.woff2") format("woff2"); font-weight: 200 700; unicode-range: U+0100-024F, U+20A0-20CF; }
+  html, body { margin: 0; background: #070707; color: #fff; font-family: Oswald, sans-serif; }
+  body { display: flex; flex-direction: column; align-items: center; gap: 12px; padding: 16px; box-sizing: border-box; min-height: 100vh; }
+  canvas { height: calc(100vh - 110px); max-width: calc(100vw - 32px); aspect-ratio: 9 / 16; object-fit: contain; background: #000; }
+  .bar { display: flex; gap: 12px; align-items: center; width: min(560px, 100%); }
+  .bar input { flex: 1; accent-color: #F15A29; }
+  button { background: #F15A29; color: #070707; border: 0; font: 700 16px Oswald, sans-serif; padding: 8px 16px; border-radius: 6px; cursor: pointer; }
+  .time { font-variant-numeric: tabular-nums; min-width: 64px; color: #FFF200; }
+  body.render { padding: 0; }
+  body.render .bar { display: none; }
+  body.render canvas { height: auto; max-width: none; }
+</style>
+</head>
+<body>
+<canvas id="out" width="1080" height="1920"></canvas>
+<div class="bar">
+  <button id="play">Play</button>
+  <input id="scrub" type="range" min="0" max="44" step="0.0333" value="0" />
+  <span class="time" id="time">0.00s</span>
+</div>
+<script src="logo-data.js"></script>
+<script src="engine.js"></script>
+<script src="illustrations.js"></script>
+<script src="scenes.js"></script>
+<script>
+  const out = document.getElementById("out");
+  const renderMode = new URLSearchParams(location.search).has("render");
+  if (renderMode) document.body.classList.add("render");
+  window.ready = (async () => {
+    await Promise.all([
+      document.fonts.load("100px 'One Slice'"),
+      document.fonts.load("100px Anton", "₹0"),
+      document.fonts.load("600 100px Oswald", "₹A"),
+      document.fonts.load("700 100px Oswald"),
+    ]);
+    await document.fonts.ready;
+    FILM.render(out, 0);
+    return true;
+  })();
+  // Export hook: draw frame at time t and return it as a PNG data URL.
+  window.frameAt = (t, type = "image/png", q) => { FILM.render(out, t); return out.toDataURL(type, q); };
+
+  if (!renderMode) {
+    const scrub = document.getElementById("scrub"), time = document.getElementById("time"), btn = document.getElementById("play");
+    scrub.max = FILM.DURATION;
+    let playing = false, t = 0, last = 0;
+    const draw = () => { FILM.render(out, t); scrub.value = t; time.textContent = t.toFixed(2) + "s"; };
+    const loop = (now) => {
+      if (!playing) return;
+      t += (now - last) / 1000; last = now;
+      if (t >= FILM.DURATION) t = 0;
+      draw();
+      requestAnimationFrame(loop);
+    };
+    btn.onclick = () => { playing = !playing; btn.textContent = playing ? "Pause" : "Play"; last = performance.now(); if (playing) requestAnimationFrame(loop); };
+    scrub.oninput = () => { t = +scrub.value; draw(); };
+    window.ready.then(draw);
+  }
+</script>
+</body>
+</html>
