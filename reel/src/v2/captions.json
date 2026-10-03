@@ -1,0 +1,160 @@
+{
+ "A": [
+  {
+   "text": "NEAR TCS,",
+   "key": null,
+   "start": 3.68,
+   "end": 4.552,
+   "line": "L3"
+  },
+  {
+   "text": "ADIBATLA...",
+   "key": "ADIBATLA...",
+   "start": 4.402,
+   "end": 5.545,
+   "line": "L3"
+  },
+  {
+   "text": "A GRILL IS AWAKE.",
+   "key": "AWAKE.",
+   "start": 5.395,
+   "end": 6.796,
+   "line": "L3"
+  },
+  {
+   "text": "SMOKY SHAWARMAS.",
+   "key": "SMOKY",
+   "start": 6.75,
+   "end": 7.995,
+   "line": "L4a"
+  },
+  {
+   "text": "STACKED BURGERS.",
+   "key": "STACKED",
+   "start": 8.5,
+   "end": 9.699,
+   "line": "L4b"
+  },
+  {
+   "text": "KEBABS STRAIGHT",
+   "key": null,
+   "start": 12.35,
+   "end": 13.191,
+   "line": "L4c"
+  },
+  {
+   "text": "OFF THE FLAME.",
+   "key": "FLAME.",
+   "start": 13.041,
+   "end": 14.036,
+   "line": "L4c"
+  },
+  {
+   "text": "MEALS FROM",
+   "key": null,
+   "start": 15.88,
+   "end": 16.62,
+   "line": "L5"
+  },
+  {
+   "text": "ONE SEVENTY-NINE,",
+   "key": "SEVENTY-NINE,",
+   "start": 16.47,
+   "end": 17.69,
+   "line": "L5"
+  },
+  {
+   "text": "FRIES AND A",
+   "key": null,
+   "start": 17.54,
+   "end": 18.248,
+   "line": "L5"
+  },
+  {
+   "text": "DRINK INCLUDED.",
+   "key": "INCLUDED.",
+   "start": 18.098,
+   "end": 19.12,
+   "line": "L5"
+  }
+ ],
+ "B": [
+  {
+   "text": "NEAR TCS,",
+   "key": null,
+   "start": 3.68,
+   "end": 4.552,
+   "line": "L3"
+  },
+  {
+   "text": "ADIBATLA...",
+   "key": "ADIBATLA...",
+   "start": 4.402,
+   "end": 5.545,
+   "line": "L3"
+  },
+  {
+   "text": "A GRILL IS AWAKE.",
+   "key": "AWAKE.",
+   "start": 5.395,
+   "end": 6.796,
+   "line": "L3"
+  },
+  {
+   "text": "SMOKY SHAWARMAS.",
+   "key": "SMOKY",
+   "start": 6.75,
+   "end": 7.995,
+   "line": "L4a"
+  },
+  {
+   "text": "STACKED BURGERS.",
+   "key": "STACKED",
+   "start": 8.5,
+   "end": 9.699,
+   "line": "L4b"
+  },
+  {
+   "text": "KEBABS STRAIGHT",
+   "key": null,
+   "start": 12.35,
+   "end": 13.191,
+   "line": "L4c"
+  },
+  {
+   "text": "OFF THE FLAME.",
+   "key": "FLAME.",
+   "start": 13.041,
+   "end": 14.036,
+   "line": "L4c"
+  },
+  {
+   "text": "MEALS FROM",
+   "key": null,
+   "start": 15.88,
+   "end": 16.62,
+   "line": "L5"
+  },
+  {
+   "text": "ONE SEVENTY-NINE,",
+   "key": "SEVENTY-NINE,",
+   "start": 16.47,
+   "end": 17.69,
+   "line": "L5"
+  },
+  {
+   "text": "FRIES AND A",
+   "key": null,
+   "start": 17.54,
+   "end": 18.248,
+   "line": "L5"
+  },
+  {
+   "text": "DRINK INCLUDED.",
+   "key": "INCLUDED.",
+   "start": 18.098,
+   "end": 19.12,
+   "line": "L5"
+  }
+ ]
+}

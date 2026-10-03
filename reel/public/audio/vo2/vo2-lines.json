@@ -1,0 +1,67 @@
+{
+  "engine": "kokoro-onnx v1.0",
+  "voice": "af_heart",
+  "speed": 1.08,
+  "lines": [
+    {
+      "key": "L1",
+      "file": "audio/vo2/L1.wav",
+      "text": "Ten PM. Still at your desk.",
+      "duration": 1.791
+    },
+    {
+      "key": "L2",
+      "file": "audio/vo2/L2.wav",
+      "text": "Your stomach just filed a complaint.",
+      "duration": 1.77
+    },
+    {
+      "key": "L3",
+      "file": "audio/vo2/L3.wav",
+      "text": "Near TCS, Adibatla... a grill is awake.",
+      "duration": 2.966
+    },
+    {
+      "key": "L4a",
+      "file": "audio/vo2/L4a.wav",
+      "text": "Smoky shawarmas.",
+      "duration": 1.095
+    },
+    {
+      "key": "L4b",
+      "file": "audio/vo2/L4b.wav",
+      "text": "Stacked burgers.",
+      "duration": 1.049
+    },
+    {
+      "key": "L4c",
+      "file": "audio/vo2/L4c.wav",
+      "text": "Kebabs straight off the flame.",
+      "duration": 1.536
+    },
+    {
+      "key": "L5",
+      "file": "audio/vo2/L5.wav",
+      "text": "Meals from one seventy-nine, fries and a drink included.",
+      "duration": 3.09
+    },
+    {
+      "key": "L6",
+      "file": "audio/vo2/L6.wav",
+      "text": "Finally, a cheat meal that isn't cheating.",
+      "duration": 2.113
+    },
+    {
+      "key": "L7",
+      "file": "audio/vo2/L7.wav",
+      "text": "Hungrillz. Crave. Grill. Repeat.",
+      "duration": 1.489
+    },
+    {
+      "key": "B1",
+      "file": "audio/vo2/B1.wav",
+      "text": "Adibatla. We need to talk about your dinner. Your stomach just filed a complaint.",
+      "duration": 3.096
+    }
+  ]
+}
