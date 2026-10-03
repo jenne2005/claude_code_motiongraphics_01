@@ -1,0 +1,309 @@
+{
+  "fps": 30,
+  "frames": 849,
+  "bpm": 108,
+  "gridOrigin": 7.6,
+  "handle": "@hungrillz_tcs_adibatla",
+  "order": "walk-in",
+  "cuts": {
+    "hook": 0,
+    "stamp": 78,
+    "logo": 136,
+    "shawarma": 228,
+    "burger": 295,
+    "sandwich": 361,
+    "kebab": 420,
+    "fries": 495,
+    "bundle": 553,
+    "cheat": 670,
+    "end": 761,
+    "dissolve": 843
+  },
+  "prices": {
+    "shawarma": {
+      "lock": 242,
+      "exit": 289,
+      "bass": true
+    },
+    "burger": {
+      "lock": 309,
+      "exit": 355,
+      "bass": true
+    },
+    "sandwich": {
+      "lock": 373,
+      "exit": 416,
+      "bass": false
+    },
+    "kebab": {
+      "lock": 444,
+      "exit": 489,
+      "bass": true
+    },
+    "fries": {
+      "lock": 505,
+      "exit": 547,
+      "bass": true
+    },
+    "meals": {
+      "lock": 625,
+      "exit": 667,
+      "bass": "big"
+    }
+  },
+  "openLoop": [
+    228,
+    553
+  ],
+  "locationTag": [
+    228,
+    761
+  ],
+  "interrupt": 361,
+  "whooshes": [
+    228,
+    295,
+    420,
+    495,
+    553,
+    670
+  ],
+  "vo": {
+    "A": [
+      [
+        "L1A",
+        0.03
+      ],
+      [
+        "L2",
+        2.88
+      ],
+      [
+        "L3",
+        5.0
+      ],
+      [
+        "L4a",
+        8.15
+      ],
+      [
+        "L4b",
+        9.9
+      ],
+      [
+        "L4c",
+        12.12
+      ],
+      [
+        "L4d",
+        14.03
+      ],
+      [
+        "L4e",
+        16.3
+      ],
+      [
+        "L5",
+        18.6
+      ],
+      [
+        "L6",
+        22.7
+      ],
+      [
+        "L7",
+        25.55
+      ]
+    ],
+    "B": [
+      [
+        "L1B",
+        0.03
+      ],
+      [
+        "L2",
+        2.88
+      ],
+      [
+        "L3",
+        5.0
+      ],
+      [
+        "L4a",
+        8.15
+      ],
+      [
+        "L4b",
+        9.9
+      ],
+      [
+        "L4c",
+        12.12
+      ],
+      [
+        "L4d",
+        14.03
+      ],
+      [
+        "L4e",
+        16.3
+      ],
+      [
+        "L5",
+        18.6
+      ],
+      [
+        "L6",
+        22.7
+      ],
+      [
+        "L7",
+        25.55
+      ]
+    ],
+    "C": [
+      [
+        "L1C",
+        0.0
+      ],
+      [
+        "L3",
+        5.0
+      ],
+      [
+        "L4a",
+        8.15
+      ],
+      [
+        "L4b",
+        9.9
+      ],
+      [
+        "L4c",
+        12.12
+      ],
+      [
+        "L4d",
+        14.03
+      ],
+      [
+        "L4e",
+        16.3
+      ],
+      [
+        "L5",
+        18.6
+      ],
+      [
+        "L6",
+        22.7
+      ],
+      [
+        "L7",
+        25.55
+      ]
+    ]
+  },
+  "captions": {
+    "L2": [
+      [
+        "YOUR STOMACH",
+        "STOMACH"
+      ],
+      [
+        "JUST FILED",
+        null
+      ],
+      [
+        "A COMPLAINT.",
+        "COMPLAINT."
+      ]
+    ],
+    "L3": [
+      [
+        "NEAR TCS, ADIBATLA...",
+        "ADIBATLA..."
+      ],
+      [
+        "A GRILL",
+        null
+      ],
+      [
+        "IS AWAKE.",
+        "AWAKE."
+      ]
+    ],
+    "L4a": [
+      [
+        "SMOKY",
+        "SMOKY"
+      ],
+      [
+        "SHAWARMAS.",
+        null
+      ]
+    ],
+    "L4b": [
+      [
+        "STACKED",
+        "STACKED"
+      ],
+      [
+        "BURGERS.",
+        null
+      ]
+    ],
+    "L4c": [
+      [
+        "GOLDEN GRILLED",
+        "GOLDEN"
+      ],
+      [
+        "SANDWICHES.",
+        null
+      ]
+    ],
+    "L4d": [
+      [
+        "KEBABS, STRAIGHT",
+        null
+      ],
+      [
+        "OFF THE FLAME.",
+        "FLAME."
+      ]
+    ],
+    "L4e": [
+      [
+        "AND FRIES,",
+        null
+      ],
+      [
+        "CRISP, HOT,",
+        "HOT,"
+      ],
+      [
+        "DANGEROUS.",
+        "DANGEROUS."
+      ]
+    ],
+    "L5": [
+      [
+        "MEALS FROM",
+        null
+      ],
+      [
+        "ONE SEVENTY-NINE,",
+        "SEVENTY-NINE,"
+      ],
+      [
+        "FRIES AND",
+        null
+      ],
+      [
+        "A DRINK, INCLUDED.",
+        "INCLUDED."
+      ]
+    ]
+  }
+}

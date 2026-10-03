@@ -1,0 +1,89 @@
+{
+  "engine": "kokoro-onnx v1.0",
+  "blend": {
+    "af_nicole": 0.65,
+    "af_heart": 0.35
+  },
+  "speed": 0.93,
+  "nameVariant": 1,
+  "lines": {
+    "L1A": {
+      "file": "audio/v4/vo/L1A.wav",
+      "text": "Aadi Batla. Ten P.M. Still at your desk?",
+      "duration": 2.818,
+      "speed": 1.265
+    },
+    "L1B": {
+      "file": "audio/v4/vo/L1B.wav",
+      "text": "Aadi Batla, we need to talk.",
+      "duration": 2.154,
+      "speed": 0.93
+    },
+    "L1C": {
+      "file": "audio/v4/vo/L1C.wav",
+      "text": "One nineteen. Not a typo. Aadi Batla, we need to talk.",
+      "duration": 3.855,
+      "speed": 1.265
+    },
+    "L2": {
+      "file": "audio/v4/vo/L2.wav",
+      "text": "Your stomach just filed a complaint.",
+      "duration": 2.098,
+      "speed": 1.265
+    },
+    "L3": {
+      "file": "audio/v4/vo/L3.wav",
+      "text": "Near T.C.S., Aadi Batla... a grill is awake.",
+      "duration": 3.111,
+      "speed": 1.245
+    },
+    "L4a": {
+      "file": "audio/v4/vo/L4a.wav",
+      "text": "Smoky shawarmas.",
+      "duration": 1.488,
+      "speed": 0.93
+    },
+    "L4b": {
+      "file": "audio/v4/vo/L4b.wav",
+      "text": "Stacked burgers.",
+      "duration": 1.335,
+      "speed": 0.93
+    },
+    "L4c": {
+      "file": "audio/v4/vo/L4c.wav",
+      "text": "Golden grilled sandwiches.",
+      "duration": 1.836,
+      "speed": 0.976
+    },
+    "L4d": {
+      "file": "audio/v4/vo/L4d.wav",
+      "text": "Kebabs, straight off the flame.",
+      "duration": 2.236,
+      "speed": 0.93
+    },
+    "L4e": {
+      "file": "audio/v4/vo/L4e.wav",
+      "text": "And fries... crisp, hot, dangerous.",
+      "duration": 2.277,
+      "speed": 1.265
+    },
+    "L5": {
+      "file": "audio/v4/vo/L5.wav",
+      "text": "Meals from one seventy-nine... fries and a drink, included.",
+      "duration": 4.085,
+      "speed": 1.248
+    },
+    "L6": {
+      "file": "audio/v4/vo/L6.wav",
+      "text": "Finally... a cheat meal that isn't cheating.",
+      "duration": 2.825,
+      "speed": 0.978
+    },
+    "L7": {
+      "file": "audio/v4/vo/L7.wav",
+      "text": "Hungrillz. Crave. Grill. Repeat.",
+      "duration": 2.351,
+      "speed": 1.188
+    }
+  }
+}

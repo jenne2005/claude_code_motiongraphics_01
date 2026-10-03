@@ -1,0 +1,428 @@
+{
+ "A": [
+  {
+   "text": "YOUR STOMACH",
+   "key": "STOMACH",
+   "start": 2.96,
+   "end": 3.783,
+   "line": "L2"
+  },
+  {
+   "text": "JUST FILED",
+   "key": null,
+   "start": 3.663,
+   "end": 4.461,
+   "line": "L2"
+  },
+  {
+   "text": "A COMPLAINT.",
+   "key": "COMPLAINT.",
+   "start": 4.341,
+   "end": 5.098,
+   "line": "L2"
+  },
+  {
+   "text": "NEAR TCS, ADIBATLA...",
+   "key": "ADIBATLA...",
+   "start": 5.08,
+   "end": 6.973,
+   "line": "L3"
+  },
+  {
+   "text": "A GRILL",
+   "key": null,
+   "start": 6.853,
+   "end": 7.363,
+   "line": "L3"
+  },
+  {
+   "text": "IS AWAKE.",
+   "key": "AWAKE.",
+   "start": 7.243,
+   "end": 8.231,
+   "line": "L3"
+  },
+  {
+   "text": "SMOKY",
+   "key": "SMOKY",
+   "start": 8.23,
+   "end": 8.711,
+   "line": "L4a"
+  },
+  {
+   "text": "SHAWARMAS.",
+   "key": null,
+   "start": 8.591,
+   "end": 9.758,
+   "line": "L4a"
+  },
+  {
+   "text": "STACKED",
+   "key": "STACKED",
+   "start": 9.98,
+   "end": 10.574,
+   "line": "L4b"
+  },
+  {
+   "text": "BURGERS.",
+   "key": null,
+   "start": 10.454,
+   "end": 11.354,
+   "line": "L4b"
+  },
+  {
+   "text": "GOLDEN GRILLED",
+   "key": "GOLDEN",
+   "start": 12.2,
+   "end": 13.141,
+   "line": "L4c"
+  },
+  {
+   "text": "SANDWICHES.",
+   "key": null,
+   "start": 13.021,
+   "end": 14.076,
+   "line": "L4c"
+  },
+  {
+   "text": "KEBABS, STRAIGHT",
+   "key": null,
+   "start": 14.11,
+   "end": 15.416,
+   "line": "L4d"
+  },
+  {
+   "text": "OFF THE FLAME.",
+   "key": "FLAME.",
+   "start": 15.296,
+   "end": 16.386,
+   "line": "L4d"
+  },
+  {
+   "text": "AND FRIES,",
+   "key": null,
+   "start": 16.38,
+   "end": 17.323,
+   "line": "L4e"
+  },
+  {
+   "text": "CRISP, HOT,",
+   "key": "HOT,",
+   "start": 17.203,
+   "end": 17.894,
+   "line": "L4e"
+  },
+  {
+   "text": "DANGEROUS.",
+   "key": "DANGEROUS.",
+   "start": 17.774,
+   "end": 18.697,
+   "line": "L4e"
+  },
+  {
+   "text": "MEALS FROM",
+   "key": null,
+   "start": 18.68,
+   "end": 19.598,
+   "line": "L5"
+  },
+  {
+   "text": "ONE SEVENTY-NINE,",
+   "key": "SEVENTY-NINE,",
+   "start": 19.478,
+   "end": 20.627,
+   "line": "L5"
+  },
+  {
+   "text": "FRIES AND",
+   "key": null,
+   "start": 20.507,
+   "end": 21.376,
+   "line": "L5"
+  },
+  {
+   "text": "A DRINK, INCLUDED.",
+   "key": "INCLUDED.",
+   "start": 21.256,
+   "end": 22.805,
+   "line": "L5"
+  }
+ ],
+ "B": [
+  {
+   "text": "YOUR STOMACH",
+   "key": "STOMACH",
+   "start": 2.96,
+   "end": 3.783,
+   "line": "L2"
+  },
+  {
+   "text": "JUST FILED",
+   "key": null,
+   "start": 3.663,
+   "end": 4.461,
+   "line": "L2"
+  },
+  {
+   "text": "A COMPLAINT.",
+   "key": "COMPLAINT.",
+   "start": 4.341,
+   "end": 5.098,
+   "line": "L2"
+  },
+  {
+   "text": "NEAR TCS, ADIBATLA...",
+   "key": "ADIBATLA...",
+   "start": 5.08,
+   "end": 6.973,
+   "line": "L3"
+  },
+  {
+   "text": "A GRILL",
+   "key": null,
+   "start": 6.853,
+   "end": 7.363,
+   "line": "L3"
+  },
+  {
+   "text": "IS AWAKE.",
+   "key": "AWAKE.",
+   "start": 7.243,
+   "end": 8.231,
+   "line": "L3"
+  },
+  {
+   "text": "SMOKY",
+   "key": "SMOKY",
+   "start": 8.23,
+   "end": 8.711,
+   "line": "L4a"
+  },
+  {
+   "text": "SHAWARMAS.",
+   "key": null,
+   "start": 8.591,
+   "end": 9.758,
+   "line": "L4a"
+  },
+  {
+   "text": "STACKED",
+   "key": "STACKED",
+   "start": 9.98,
+   "end": 10.574,
+   "line": "L4b"
+  },
+  {
+   "text": "BURGERS.",
+   "key": null,
+   "start": 10.454,
+   "end": 11.354,
+   "line": "L4b"
+  },
+  {
+   "text": "GOLDEN GRILLED",
+   "key": "GOLDEN",
+   "start": 12.2,
+   "end": 13.141,
+   "line": "L4c"
+  },
+  {
+   "text": "SANDWICHES.",
+   "key": null,
+   "start": 13.021,
+   "end": 14.076,
+   "line": "L4c"
+  },
+  {
+   "text": "KEBABS, STRAIGHT",
+   "key": null,
+   "start": 14.11,
+   "end": 15.416,
+   "line": "L4d"
+  },
+  {
+   "text": "OFF THE FLAME.",
+   "key": "FLAME.",
+   "start": 15.296,
+   "end": 16.386,
+   "line": "L4d"
+  },
+  {
+   "text": "AND FRIES,",
+   "key": null,
+   "start": 16.38,
+   "end": 17.323,
+   "line": "L4e"
+  },
+  {
+   "text": "CRISP, HOT,",
+   "key": "HOT,",
+   "start": 17.203,
+   "end": 17.894,
+   "line": "L4e"
+  },
+  {
+   "text": "DANGEROUS.",
+   "key": "DANGEROUS.",
+   "start": 17.774,
+   "end": 18.697,
+   "line": "L4e"
+  },
+  {
+   "text": "MEALS FROM",
+   "key": null,
+   "start": 18.68,
+   "end": 19.598,
+   "line": "L5"
+  },
+  {
+   "text": "ONE SEVENTY-NINE,",
+   "key": "SEVENTY-NINE,",
+   "start": 19.478,
+   "end": 20.627,
+   "line": "L5"
+  },
+  {
+   "text": "FRIES AND",
+   "key": null,
+   "start": 20.507,
+   "end": 21.376,
+   "line": "L5"
+  },
+  {
+   "text": "A DRINK, INCLUDED.",
+   "key": "INCLUDED.",
+   "start": 21.256,
+   "end": 22.805,
+   "line": "L5"
+  }
+ ],
+ "C": [
+  {
+   "text": "NEAR TCS, ADIBATLA...",
+   "key": "ADIBATLA...",
+   "start": 5.08,
+   "end": 6.973,
+   "line": "L3"
+  },
+  {
+   "text": "A GRILL",
+   "key": null,
+   "start": 6.853,
+   "end": 7.363,
+   "line": "L3"
+  },
+  {
+   "text": "IS AWAKE.",
+   "key": "AWAKE.",
+   "start": 7.243,
+   "end": 8.231,
+   "line": "L3"
+  },
+  {
+   "text": "SMOKY",
+   "key": "SMOKY",
+   "start": 8.23,
+   "end": 8.711,
+   "line": "L4a"
+  },
+  {
+   "text": "SHAWARMAS.",
+   "key": null,
+   "start": 8.591,
+   "end": 9.758,
+   "line": "L4a"
+  },
+  {
+   "text": "STACKED",
+   "key": "STACKED",
+   "start": 9.98,
+   "end": 10.574,
+   "line": "L4b"
+  },
+  {
+   "text": "BURGERS.",
+   "key": null,
+   "start": 10.454,
+   "end": 11.354,
+   "line": "L4b"
+  },
+  {
+   "text": "GOLDEN GRILLED",
+   "key": "GOLDEN",
+   "start": 12.2,
+   "end": 13.141,
+   "line": "L4c"
+  },
+  {
+   "text": "SANDWICHES.",
+   "key": null,
+   "start": 13.021,
+   "end": 14.076,
+   "line": "L4c"
+  },
+  {
+   "text": "KEBABS, STRAIGHT",
+   "key": null,
+   "start": 14.11,
+   "end": 15.416,
+   "line": "L4d"
+  },
+  {
+   "text": "OFF THE FLAME.",
+   "key": "FLAME.",
+   "start": 15.296,
+   "end": 16.386,
+   "line": "L4d"
+  },
+  {
+   "text": "AND FRIES,",
+   "key": null,
+   "start": 16.38,
+   "end": 17.323,
+   "line": "L4e"
+  },
+  {
+   "text": "CRISP, HOT,",
+   "key": "HOT,",
+   "start": 17.203,
+   "end": 17.894,
+   "line": "L4e"
+  },
+  {
+   "text": "DANGEROUS.",
+   "key": "DANGEROUS.",
+   "start": 17.774,
+   "end": 18.697,
+   "line": "L4e"
+  },
+  {
+   "text": "MEALS FROM",
+   "key": null,
+   "start": 18.68,
+   "end": 19.598,
+   "line": "L5"
+  },
+  {
+   "text": "ONE SEVENTY-NINE,",
+   "key": "SEVENTY-NINE,",
+   "start": 19.478,
+   "end": 20.627,
+   "line": "L5"
+  },
+  {
+   "text": "FRIES AND",
+   "key": null,
+   "start": 20.507,
+   "end": 21.376,
+   "line": "L5"
+  },
+  {
+   "text": "A DRINK, INCLUDED.",
+   "key": "INCLUDED.",
+   "start": 21.256,
+   "end": 22.805,
+   "line": "L5"
+  }
+ ]
+}
