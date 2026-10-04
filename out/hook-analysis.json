@@ -868,5 +868,22 @@
    "dy": -0.94
   }
  ],
- "grade": "bright natural: +10% contrast, +8% saturation only"
+ "grade": "bright natural: +10% contrast, +8% saturation only",
+ "edit_v18": {
+  "timeline0_source_frame": 14,
+  "normal_speed_source_frames": [
+   14,
+   33
+  ],
+  "slow_motion": {
+   "from_source_frame": 33,
+   "speed": 0.55,
+   "ease_in_frames": 8,
+   "interpolation": "DIS optical flow, motion-compensated"
+  },
+  "cut_source_frame": 52,
+  "cut_timeline_frame": 50,
+  "cut_timeline_s": 1.667,
+  "why": "longer hook: the kick, the watcher and the ball rising into the sky stay on screen"
+ }
 }
