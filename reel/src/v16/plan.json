@@ -1,0 +1,204 @@
+{
+ "fps": 30,
+ "frames": 837,
+ "seconds": 27.9,
+ "bpm": 104,
+ "grid": {
+  "origin_s": 2.2,
+  "eighth_s": 0.28846
+ },
+ "hook": {
+  "cut": 26,
+  "clipFrames": 26,
+  "onFire": 32,
+  "kickTimelineS": 0.621,
+  "flowPxPerFrame": 67.1,
+  "flowDxPxPerFrame": 13.1
+ },
+ "scenes": {
+  "hook": {
+   "from": 0,
+   "to": 66
+  },
+  "location": {
+   "from": 66,
+   "to": 161
+  },
+  "shawarma": {
+   "from": 161,
+   "to": 256
+  },
+  "burgers": {
+   "from": 256,
+   "to": 352
+  },
+  "sandwiches": {
+   "from": 352,
+   "to": 447
+  },
+  "kebabs": {
+   "from": 447,
+   "to": 533
+  },
+  "fries": {
+   "from": 533,
+   "to": 603
+  },
+  "finally": {
+   "from": 603,
+   "to": 680
+  },
+  "outro": {
+   "from": 680,
+   "to": 837
+  }
+ },
+ "vo": {
+  "L1": {
+   "file": "audio/vo/vo-01.wav",
+   "at": 0.7,
+   "duration": 2.3
+  },
+  "L2": {
+   "file": "audio/v16/vo/L2.wav",
+   "at": 3.08,
+   "duration": 1.97
+  },
+  "L3": {
+   "file": "audio/vo/vo-02.wav",
+   "at": 5.523,
+   "duration": 2.07
+  },
+  "L4": {
+   "file": "audio/vo/vo-03.wav",
+   "at": 8.696,
+   "duration": 1.767
+  },
+  "L5": {
+   "file": "audio/vo/vo-04.wav",
+   "at": 11.869,
+   "duration": 2.039
+  },
+  "L6": {
+   "file": "audio/vo/vo-05.wav",
+   "at": 15.042,
+   "duration": 2.139
+  },
+  "L7": {
+   "file": "audio/vo/vo-06.wav",
+   "at": 17.927,
+   "duration": 1.596
+  },
+  "L8": {
+   "file": "audio/vo/vo-07.wav",
+   "at": 20.235,
+   "duration": 2.385
+  },
+  "L9": {
+   "file": "audio/v16/vo/L9.wav",
+   "at": 22.781,
+   "duration": 4.66
+  }
+ },
+ "food": {
+  "flavours": [
+   8,
+   4
+  ],
+  "lock": 40,
+  "meal": 56
+ },
+ "kebab": {
+  "title": 2,
+  "names": [
+   10,
+   18,
+   26,
+   34
+  ],
+  "rumali": 40
+ },
+ "fries": {
+  "classic": 10,
+  "mayo": 26
+ },
+ "priceLocks": {
+  "shawarma": 201,
+  "burgers": 296,
+  "sandwiches": 392,
+  "kebabs": 457,
+  "fries": 543
+ },
+ "captions": [
+  {
+   "text": "SHAWARMA.",
+   "key": "SHAWARMA.",
+   "from": 166,
+   "to": 193
+  },
+  {
+   "text": "FROM ONE TWENTY-NINE.",
+   "key": null,
+   "from": 193,
+   "to": 235
+  },
+  {
+   "text": "BURGERS.",
+   "key": "BURGERS.",
+   "from": 261,
+   "to": 283
+  },
+  {
+   "text": "FROM ONE NINETEEN.",
+   "key": null,
+   "from": 283,
+   "to": 321
+  },
+  {
+   "text": "SANDWICHES.",
+   "key": "SANDWICHES.",
+   "from": 356,
+   "to": 390
+  },
+  {
+   "text": "FROM ONE OH NINE.",
+   "key": null,
+   "from": 390,
+   "to": 424
+  },
+  {
+   "text": "KEBABS.",
+   "key": "KEBABS.",
+   "from": 451,
+   "to": 479
+  },
+  {
+   "text": "TWELVE WAYS",
+   "key": null,
+   "from": 479,
+   "to": 502
+  },
+  {
+   "text": "TO CRAVE.",
+   "key": "CRAVE.",
+   "from": 498,
+   "to": 523
+  },
+  {
+   "text": "FRIES.",
+   "key": "FRIES.",
+   "from": 538,
+   "to": 562
+  },
+  {
+   "text": "SEVENTY-NINE.",
+   "key": null,
+   "from": 562,
+   "to": 593
+  }
+ ],
+ "locationTag": [
+  161,
+  680
+ ]
+}

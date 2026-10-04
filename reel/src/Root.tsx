@@ -6,6 +6,7 @@ import { VIDEO } from "./brand";
 import { TOTAL } from "./timeline";
 import { ReelV2, V2_TOTAL } from "./v2/ReelV2";
 import { CoverV4, ReelV4, V4_FRAMES } from "./v4/ReelV4";
+import { CoverV16, ReelV16, V16_FRAMES } from "./v16/ReelV16";
 
 export const RemotionRoot: React.FC = () => (
   <>
@@ -16,6 +17,8 @@ export const RemotionRoot: React.FC = () => (
     <Composition id="HungrillzV4B" component={ReelV4} durationInFrames={V4_FRAMES} {...VIDEO} defaultProps={{ hook: "B" as const }} />
     <Composition id="HungrillzV4C" component={ReelV4} durationInFrames={V4_FRAMES} {...VIDEO} defaultProps={{ hook: "C" as const }} />
     <Composition id="HungrillzV4Cover" component={CoverV4} durationInFrames={1} {...VIDEO} />
+    <Composition id="HungrillzV16" component={ReelV16} durationInFrames={V16_FRAMES} {...VIDEO} />
+    <Composition id="HungrillzV16Cover" component={CoverV16} durationInFrames={1} {...VIDEO} />
     <Composition id="TestFrame" component={TestFrame} durationInFrames={30} {...VIDEO} />
     <Composition id="BrandCheck" component={BrandCheck} durationInFrames={1} {...VIDEO} />
   </>
