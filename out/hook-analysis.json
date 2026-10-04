@@ -867,5 +867,15 @@
    "dx": 1.31,
    "dy": -0.94
   }
- ]
+ ],
+ "confirmed_in_final_mix": {
+  "kick_thud_s": 0.576,
+  "kick_thud_frame": 17.3,
+  "cut_frame": 26,
+  "cut_s": 0.867,
+  "impact_onset_s": 0.872,
+  "impact_frame": 26.2,
+  "burger_entry_px_per_frame_first_frame": 75,
+  "note": "burger drop matches the clip's peak whip (67 px/frame) scaled by the 1.12x zoom"
+ }
 }
