@@ -1,0 +1,434 @@
+{
+ "fps": 30,
+ "frames": 765,
+ "seconds": 25.5,
+ "bpm": 104,
+ "grid": {
+  "origin_s": 2.0,
+  "eighth_s": 0.28846
+ },
+ "hook": {
+  "cut": 26,
+  "clipFrames": 26,
+  "onFire": 32,
+  "flowPxPerFrame": 67.1
+ },
+ "scenes": {
+  "hook": {
+   "from": 0,
+   "to": 60
+  },
+  "location": {
+   "from": 60,
+   "to": 147
+  },
+  "shawarma": {
+   "from": 147,
+   "to": 233
+  },
+  "burgers": {
+   "from": 233,
+   "to": 320
+  },
+  "sandwiches": {
+   "from": 320,
+   "to": 406
+  },
+  "kebabs": {
+   "from": 406,
+   "to": 493
+  },
+  "fries": {
+   "from": 493,
+   "to": 553
+  },
+  "finally": {
+   "from": 553,
+   "to": 622
+  },
+  "outro": {
+   "from": 622,
+   "to": 765
+  }
+ },
+ "vo": {
+  "L1": {
+   "file": "audio/v17/vo/L1.wav",
+   "at": 0.7,
+   "duration": 2.04,
+   "words": [
+    {
+     "word": "Everything",
+     "start": 0.0,
+     "end": 0.39
+    },
+    {
+     "word": "we",
+     "start": 0.39,
+     "end": 0.66
+    },
+    {
+     "word": "make",
+     "start": 0.66,
+     "end": 0.918
+    },
+    {
+     "word": "is",
+     "start": 1.138,
+     "end": 1.268
+    },
+    {
+     "word": "on",
+     "start": 1.268,
+     "end": 1.598
+    },
+    {
+     "word": "fire",
+     "start": 1.598,
+     "end": 2.031
+    }
+   ]
+  },
+  "L2": {
+   "file": "audio/v17/vo/L2.wav",
+   "at": 2.78,
+   "duration": 1.951,
+   "words": [
+    {
+     "word": "NEAR",
+     "start": 0.077,
+     "end": 0.387
+    },
+    {
+     "word": "TCS,",
+     "start": 0.477,
+     "end": 1.179
+    },
+    {
+     "word": "ADIBATLA.",
+     "start": 1.269,
+     "end": 1.871
+    }
+   ]
+  },
+  "L3": {
+   "file": "audio/vo/vo-02.wav",
+   "at": 5.005,
+   "duration": 2.07,
+   "words": [
+    {
+     "word": "Shawarma",
+     "start": 0.0,
+     "end": 0.625
+    },
+    {
+     "word": "From",
+     "start": 0.925,
+     "end": 1.165
+    },
+    {
+     "word": "one",
+     "start": 1.165,
+     "end": 1.415
+    },
+    {
+     "word": "twenty-nine",
+     "start": 1.415,
+     "end": 2.067
+    }
+   ]
+  },
+  "L4": {
+   "file": "audio/vo/vo-03.wav",
+   "at": 7.889,
+   "duration": 1.767,
+   "words": [
+    {
+     "word": "Burgers",
+     "start": 0.0,
+     "end": 0.446
+    },
+    {
+     "word": "From",
+     "start": 0.746,
+     "end": 0.936
+    },
+    {
+     "word": "one",
+     "start": 0.936,
+     "end": 1.166
+    },
+    {
+     "word": "nineteen",
+     "start": 1.166,
+     "end": 1.764
+    }
+   ]
+  },
+  "L5": {
+   "file": "audio/vo/vo-04.wav",
+   "at": 10.774,
+   "duration": 2.039,
+   "words": [
+    {
+     "word": "Sandwiches",
+     "start": 0.0,
+     "end": 0.832
+    },
+    {
+     "word": "From",
+     "start": 1.132,
+     "end": 1.332
+    },
+    {
+     "word": "one",
+     "start": 1.332,
+     "end": 1.622
+    },
+    {
+     "word": "oh",
+     "start": 1.622,
+     "end": 1.672
+    },
+    {
+     "word": "nine",
+     "start": 1.672,
+     "end": 2.029
+    }
+   ]
+  },
+  "L6": {
+   "file": "audio/vo/vo-05.wav",
+   "at": 13.658,
+   "duration": 2.139,
+   "words": [
+    {
+     "word": "Kebabs",
+     "start": 0.0,
+     "end": 0.626
+    },
+    {
+     "word": "Twelve",
+     "start": 0.926,
+     "end": 1.216
+    },
+    {
+     "word": "ways",
+     "start": 1.216,
+     "end": 1.566
+    },
+    {
+     "word": "to",
+     "start": 1.566,
+     "end": 1.696
+    },
+    {
+     "word": "crave",
+     "start": 1.696,
+     "end": 2.134
+    }
+   ]
+  },
+  "L7": {
+   "file": "audio/vo/vo-06.wav",
+   "at": 16.543,
+   "duration": 1.596,
+   "words": [
+    {
+     "word": "Fries",
+     "start": 0.0,
+     "end": 0.496
+    },
+    {
+     "word": "Seventy-nine",
+     "start": 0.796,
+     "end": 1.592
+    }
+   ]
+  },
+  "L8": {
+   "file": "audio/v17/vo/L8.wav",
+   "at": 18.562,
+   "duration": 2.125,
+   "words": [
+    {
+     "word": "Finally",
+     "start": 0.0,
+     "end": 0.5
+    },
+    {
+     "word": "a",
+     "start": 0.72,
+     "end": 0.82
+    },
+    {
+     "word": "cheat",
+     "start": 0.82,
+     "end": 1.08
+    },
+    {
+     "word": "meal",
+     "start": 1.08,
+     "end": 1.37
+    },
+    {
+     "word": "that",
+     "start": 1.37,
+     "end": 1.49
+    },
+    {
+     "word": "isn't",
+     "start": 1.49,
+     "end": 1.73
+    },
+    {
+     "word": "cheating",
+     "start": 1.73,
+     "end": 2.122
+    }
+   ]
+  },
+  "L9": {
+   "file": "audio/v17/vo/L9.wav",
+   "at": 20.85,
+   "duration": 4.207,
+   "words": [
+    {
+     "word": "HUNGRILLZ.",
+     "start": 0.073,
+     "end": 0.763
+    },
+    {
+     "word": "NEAR",
+     "start": 0.853,
+     "end": 1.097
+    },
+    {
+     "word": "TCS,",
+     "start": 1.187,
+     "end": 1.867
+    },
+    {
+     "word": "ADIBATLA.",
+     "start": 1.957,
+     "end": 2.614
+    },
+    {
+     "word": "CRAVE.",
+     "start": 2.704,
+     "end": 3.126
+    },
+    {
+     "word": "GRILL.",
+     "start": 3.216,
+     "end": 3.531
+    },
+    {
+     "word": "REPEAT.",
+     "start": 3.621,
+     "end": 4.124
+    }
+   ]
+  }
+ },
+ "food": {
+  "flavours": [
+   6,
+   0
+  ],
+  "lock": 36,
+  "meal": 50
+ },
+ "kebab": {
+  "names": [
+   9,
+   15,
+   21,
+   27
+  ],
+  "rumali": 34
+ },
+ "fries": {
+  "classic": 9,
+  "mayo": 22
+ },
+ "priceLocks": {
+  "shawarma": 183,
+  "burgers": 269,
+  "sandwiches": 356,
+  "kebabs": 415,
+  "fries": 502
+ },
+ "captions": [
+  {
+   "text": "SHAWARMA.",
+   "key": "SHAWARMA.",
+   "from": 150,
+   "to": 178
+  },
+  {
+   "text": "FROM ONE TWENTY-NINE.",
+   "key": null,
+   "from": 178,
+   "to": 220
+  },
+  {
+   "text": "BURGERS.",
+   "key": "BURGERS.",
+   "from": 237,
+   "to": 259
+  },
+  {
+   "text": "FROM ONE NINETEEN.",
+   "key": null,
+   "from": 259,
+   "to": 297
+  },
+  {
+   "text": "SANDWICHES.",
+   "key": "SANDWICHES.",
+   "from": 323,
+   "to": 357
+  },
+  {
+   "text": "FROM ONE OH NINE.",
+   "key": null,
+   "from": 357,
+   "to": 392
+  },
+  {
+   "text": "KEBABS.",
+   "key": "KEBABS.",
+   "from": 410,
+   "to": 438
+  },
+  {
+   "text": "TWELVE WAYS",
+   "key": null,
+   "from": 438,
+   "to": 460
+  },
+  {
+   "text": "TO CRAVE.",
+   "key": "CRAVE.",
+   "from": 457,
+   "to": 481
+  },
+  {
+   "text": "FRIES.",
+   "key": "FRIES.",
+   "from": 496,
+   "to": 520
+  },
+  {
+   "text": "SEVENTY-NINE.",
+   "key": null,
+   "from": 520,
+   "to": 552
+  }
+ ],
+ "locationTag": [
+  147,
+  622
+ ]
+}

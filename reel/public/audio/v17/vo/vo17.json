@@ -1,0 +1,145 @@
+{
+ "voice": "piper en-us-ryan-high + v1 chain",
+ "nameVariant": 1,
+ "lines": {
+  "L1": {
+   "file": "audio/v17/vo/L1.wav",
+   "duration": 2.04,
+   "words": [
+    {
+     "word": "Everything",
+     "start": 0.0,
+     "end": 0.39
+    },
+    {
+     "word": "we",
+     "start": 0.39,
+     "end": 0.66
+    },
+    {
+     "word": "make",
+     "start": 0.66,
+     "end": 0.918
+    },
+    {
+     "word": "is",
+     "start": 1.138,
+     "end": 1.268
+    },
+    {
+     "word": "on",
+     "start": 1.268,
+     "end": 1.598
+    },
+    {
+     "word": "fire",
+     "start": 1.598,
+     "end": 2.031
+    }
+   ]
+  },
+  "L8": {
+   "file": "audio/v17/vo/L8.wav",
+   "duration": 2.125,
+   "words": [
+    {
+     "word": "Finally",
+     "start": 0.0,
+     "end": 0.5
+    },
+    {
+     "word": "a",
+     "start": 0.72,
+     "end": 0.82
+    },
+    {
+     "word": "cheat",
+     "start": 0.82,
+     "end": 1.08
+    },
+    {
+     "word": "meal",
+     "start": 1.08,
+     "end": 1.37
+    },
+    {
+     "word": "that",
+     "start": 1.37,
+     "end": 1.49
+    },
+    {
+     "word": "isn't",
+     "start": 1.49,
+     "end": 1.73
+    },
+    {
+     "word": "cheating",
+     "start": 1.73,
+     "end": 2.122
+    }
+   ]
+  },
+  "L2": {
+   "file": "audio/v17/vo/L2.wav",
+   "duration": 1.951,
+   "words": [
+    {
+     "word": "NEAR",
+     "start": 0.077,
+     "end": 0.387
+    },
+    {
+     "word": "TCS,",
+     "start": 0.477,
+     "end": 1.179
+    },
+    {
+     "word": "ADIBATLA.",
+     "start": 1.269,
+     "end": 1.871
+    }
+   ]
+  },
+  "L9": {
+   "file": "audio/v17/vo/L9.wav",
+   "duration": 4.207,
+   "words": [
+    {
+     "word": "HUNGRILLZ.",
+     "start": 0.073,
+     "end": 0.763
+    },
+    {
+     "word": "NEAR",
+     "start": 0.853,
+     "end": 1.097
+    },
+    {
+     "word": "TCS,",
+     "start": 1.187,
+     "end": 1.867
+    },
+    {
+     "word": "ADIBATLA.",
+     "start": 1.957,
+     "end": 2.614
+    },
+    {
+     "word": "CRAVE.",
+     "start": 2.704,
+     "end": 3.126
+    },
+    {
+     "word": "GRILL.",
+     "start": 3.216,
+     "end": 3.531
+    },
+    {
+     "word": "REPEAT.",
+     "start": 3.621,
+     "end": 4.124
+    }
+   ]
+  }
+ }
+}
