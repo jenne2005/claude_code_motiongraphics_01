@@ -47,29 +47,38 @@ const BURGER_DROP = Math.round(HOOK.flowPxPerFrame * 1.12 * 2); // first frame m
 const HOOK_TEXT_Y = 300;
 
 /** The bright, natural clip frame at timeline frame `f` (only before the cut): full frame, 100 % opacity,
- *  no blend mode, no tint, no vignette. Quick punch-in 1.0 -> 1.08 across the clip, thin flame-orange frame. */
+ *  no blend mode, no tint, no vignette. Slow punch-in 1.0 -> 1.08 across the clip, thin flame-orange frame. */
 const ClipFrame: React.FC<{ f: number }> = ({ f }) => {
   const s = lerp(1, 1.08, EASE(clamp01(f / HOOK.clipFrames)));
   return (
     <AbsoluteFill>
-      <AbsoluteFill style={{ transform: `scale(${s})`, transformOrigin: "540px 1150px" }}>
-        <Img src={staticFile(`hook18/f${String(Math.max(0, Math.min(HOOK.clipFrames - 1, f))).padStart(3, "0")}.png`)} style={{ position: "absolute", inset: 0, width: 1080, height: 1920 }} />
+      <AbsoluteFill style={{ transform: `scale(${s})`, transformOrigin: "540px 900px" }}>
+        <Img src={staticFile(`hook19/f${String(Math.max(0, Math.min(HOOK.clipFrames - 1, f))).padStart(3, "0")}.png`)} style={{ position: "absolute", inset: 0, width: 1080, height: 1920 }} />
       </AbsoluteFill>
       <AbsoluteFill style={{ border: `4px solid ${COLORS.flame}`, boxSizing: "border-box" }} />
     </AbsoluteFill>
   );
 };
 
-/** "EVERYTHING WE MAKE." masked line reveal, fully readable by frame 3. Moves with the burger's settle. */
-const HookTitle: React.FC<{ f: number; settle: number }> = ({ f, settle }) => {
+/** Hook headline: One Slice, no outline (a soft shadow keeps it readable on the bright sky). */
+const hookHeadline = (px: number, color: string = COLORS.white): React.CSSProperties => ({
+  ...headline(px, color),
+  WebkitTextStroke: undefined,
+  paintOrder: undefined,
+  textShadow: "0 4px 18px rgba(0,0,0,0.45), 0 1px 3px rgba(0,0,0,0.35)",
+});
+
+/** "EVERYTHING WE MAKE." masked line reveal, fully readable by frame 3. It lifts away once the kick is done
+ *  (the ball's flight up the turbine plays clean), then re-enters on the cut and rides the burger's settle. */
+const HookTitle: React.FC<{ f: number; settle: number; out?: number }> = ({ f, settle, out = 0 }) => {
   const lines = ["EVERYTHING", "WE MAKE."];
   return (
-    <div style={{ position: "absolute", left: SAFE.left, right: 1080 - SAFE.right, top: HOOK_TEXT_Y + settle, textAlign: "center" }}>
+    <div style={{ position: "absolute", left: SAFE.left, right: 1080 - SAFE.right, top: HOOK_TEXT_Y + settle - out * 40, opacity: 1 - out, textAlign: "center" }}>
       {lines.map((l, i) => {
         const p = EASE(clamp01((f + 1 - i) / 3)); // frame 0 already shows most of line 1; both lines done by frame 3
         return (
           <div key={l} style={{ overflow: "hidden", padding: "6px 0" }}>
-            <div style={{ ...headline(130), transform: `translateY(${(1 - p) * 105}%)` }}>{l}</div>
+            <div style={{ ...hookHeadline(130), transform: `translateY(${(1 - p) * 105}%)` }}>{l}</div>
           </div>
         );
       })}
@@ -121,10 +130,10 @@ const HookScene: React.FC<{ f: number }> = ({ f }) => {
           <Smoke x={540} y={720} w={500} count={5} opacity={clamp01(k / 10)} />
         </>
       )}
-      <HookTitle f={f} settle={settle} />
+      <HookTitle f={after ? k : f} settle={settle} out={after ? 0 : ease(f, HOOK.titleOut, 6)} />
       {f >= HOOK.onFire && (
         <div style={{ position: "absolute", left: SAFE.left, right: 1080 - SAFE.right, top: 1400 }}>
-          <KineticCaption words={[{ text: "ON", at: HOOK.onFire, color: COLORS.yellow, glow: true }, { text: "FIRE.", at: HOOK.onFire + 3, color: COLORS.yellow, glow: true }]} wordStyle={{ ...headline(150, COLORS.yellow) }} dur={7} />
+          <KineticCaption words={[{ text: "ON", at: HOOK.onFire, color: COLORS.yellow, glow: true }, { text: "FIRE.", at: HOOK.onFire + 3, color: COLORS.yellow, glow: true }]} wordStyle={{ ...hookHeadline(150, COLORS.yellow) }} dur={7} />
         </div>
       )}
       {/* 3-frame orange-white flash on the cut */}

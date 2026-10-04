@@ -417,6 +417,8 @@ def sfx_bus():
     place(fx, reverse_riser(CUT - 0.5), 0.5, 0.55)  # builds INTO the cut frame
     kick = read(ROOT / "reel/public/audio/v17/kick.wav")
     place(hero, kick, 0.98 - 14 / FPS - 0.04, 1.0)  # transient at ~0.59 s  # source 0.98 s -> timeline 0.473 s, so the transient lands at ~0.59 s
+    # the ball's flight: a long airy rise from just after the kick up to the cut
+    place(fx, whoosh(CUT - 0.75, down=False), 0.68, 0.32)
     place(hero, impact(), CUT, 1.0)
     lf_hits.append((CUT, 0.8))
     place(fx, whoosh(0.32, down=True), CUT - 0.02, 0.7)

@@ -17,7 +17,9 @@ VO = {k: (v19[k]["file"], v19[k]["duration"], v19[k]["words"]) for k in ("L1", "
 F = lambda t: int(round(t * FPS))
 snap = lambda sec, n: max(math.ceil(sec / EIGHTH - 1e-6), n) * EIGHTH
 
-cut = hook["edit_v18"]["cut_timeline_frame"]
+cut = hook["edit_v19"]["cut_timeline_frame"]
+# the title lifts away as the slow motion hands back to real time (the flight plays clean)
+TITLE_OUT = next(i for i, t in enumerate(json.loads((ROOT / "out/hook-analysis.json").read_text())["edit_v19"]["source_times"]) if t >= 50) - 2
 HOOK_END = round(cut / FPS + 1.1, 3)  # "ON FIRE." gets ~0.9 s after the cut
 vo_at = {"L1": round(cut / FPS - 0.167, 3)}  # J-cut, 5 frames before the cut
 vo_at["L2"] = round(vo_at["L1"] + VO["L1"][1] + 0.04, 3)
@@ -69,7 +71,7 @@ for line, chunks in CHUNKS.items():
 plan = {
     "fps": FPS, "frames": total, "seconds": round(total / FPS, 3), "bpm": BPM,
     "grid": {"origin_s": HOOK_END, "eighth_s": round(EIGHTH, 5)},
-    "hook": {"cut": cut, "clipFrames": cut, "onFire": cut + 6, "flowPxPerFrame": hook["flow_peak"]["dy_px_per_frame_1080x1920"]},
+    "hook": {"cut": cut, "clipFrames": cut, "titleOut": TITLE_OUT, "onFire": cut + 6, "flowPxPerFrame": hook["flow_peak"]["dy_px_per_frame_1080x1920"]},
     "scenes": S,
     "vo": {k: {"file": VO[k][0], "at": vo_at[k], "duration": VO[k][1], "words": VO[k][2]} for k in VO},
     "food": food, "kebab": kebab, "fries": fries, "priceLocks": locks, "captions": captions,

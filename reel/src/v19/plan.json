@@ -1,60 +1,61 @@
 {
  "fps": 30,
- "frames": 813,
- "seconds": 27.1,
+ "frames": 844,
+ "seconds": 28.133,
  "bpm": 104,
  "grid": {
-  "origin_s": 2.767,
+  "origin_s": 3.8,
   "eighth_s": 0.28846
  },
  "hook": {
-  "cut": 50,
-  "clipFrames": 50,
-  "onFire": 56,
+  "cut": 81,
+  "clipFrames": 81,
+  "titleOut": 45,
+  "onFire": 87,
   "flowPxPerFrame": 67.1
  },
  "scenes": {
   "hook": {
    "from": 0,
-   "to": 83
+   "to": 114
   },
   "location": {
-   "from": 83,
-   "to": 170
+   "from": 114,
+   "to": 201
   },
   "shawarma": {
-   "from": 170,
-   "to": 256
+   "from": 201,
+   "to": 287
   },
   "burgers": {
-   "from": 256,
-   "to": 343
+   "from": 287,
+   "to": 374
   },
   "sandwiches": {
-   "from": 343,
-   "to": 429
+   "from": 374,
+   "to": 460
   },
   "kebabs": {
-   "from": 429,
-   "to": 516
+   "from": 460,
+   "to": 547
   },
   "fries": {
-   "from": 516,
-   "to": 576
+   "from": 547,
+   "to": 607
   },
   "finally": {
-   "from": 576,
-   "to": 654
+   "from": 607,
+   "to": 685
   },
   "outro": {
-   "from": 654,
-   "to": 813
+   "from": 685,
+   "to": 844
   }
  },
  "vo": {
   "L1": {
    "file": "audio/v19/vo/L1.wav",
-   "at": 1.5,
+   "at": 2.533,
    "duration": 1.99,
    "words": [
     {
@@ -91,7 +92,7 @@
   },
   "L2": {
    "file": "audio/v19/vo/L2.wav",
-   "at": 3.53,
+   "at": 4.563,
    "duration": 1.93,
    "words": [
     {
@@ -113,7 +114,7 @@
   },
   "L3": {
    "file": "audio/v19/vo/L3.wav",
-   "at": 5.772,
+   "at": 6.805,
    "duration": 2.18,
    "words": [
     {
@@ -140,7 +141,7 @@
   },
   "L4": {
    "file": "audio/v19/vo/L4.wav",
-   "at": 8.656,
+   "at": 9.689,
    "duration": 2.032,
    "words": [
     {
@@ -167,7 +168,7 @@
   },
   "L5": {
    "file": "audio/v19/vo/L5.wav",
-   "at": 11.541,
+   "at": 12.574,
    "duration": 2.004,
    "words": [
     {
@@ -199,7 +200,7 @@
   },
   "L6": {
    "file": "audio/v19/vo/L6.wav",
-   "at": 14.425,
+   "at": 15.458,
    "duration": 2.233,
    "words": [
     {
@@ -231,7 +232,7 @@
   },
   "L7": {
    "file": "audio/v19/vo/L7.wav",
-   "at": 17.31,
+   "at": 18.343,
    "duration": 1.833,
    "words": [
     {
@@ -248,7 +249,7 @@
   },
   "L8": {
    "file": "audio/v19/vo/L8.wav",
-   "at": 19.329,
+   "at": 20.362,
    "duration": 2.386,
    "words": [
     {
@@ -290,7 +291,7 @@
   },
   "L9": {
    "file": "audio/v19/vo/L9.wav",
-   "at": 21.905,
+   "at": 22.938,
    "duration": 4.744,
    "words": [
     {
@@ -353,82 +354,82 @@
   "mayo": 22
  },
  "priceLocks": {
-  "shawarma": 206,
-  "burgers": 292,
-  "sandwiches": 379,
-  "kebabs": 438,
-  "fries": 525
+  "shawarma": 237,
+  "burgers": 323,
+  "sandwiches": 410,
+  "kebabs": 469,
+  "fries": 556
  },
  "captions": [
   {
    "text": "SHAWARMA.",
    "key": "SHAWARMA.",
-   "from": 176,
-   "to": 200
+   "from": 207,
+   "to": 231
   },
   {
    "text": "FROM ONE TWENTY-NINE.",
    "key": null,
-   "from": 199,
-   "to": 244
+   "from": 230,
+   "to": 275
   },
   {
    "text": "BURGERS.",
    "key": "BURGERS.",
-   "from": 262,
-   "to": 286
+   "from": 293,
+   "to": 317
   },
   {
    "text": "FROM ONE NINETEEN.",
    "key": null,
-   "from": 286,
-   "to": 326
+   "from": 317,
+   "to": 357
   },
   {
    "text": "SANDWICHES.",
    "key": "SANDWICHES.",
-   "from": 349,
-   "to": 376
+   "from": 380,
+   "to": 407
   },
   {
    "text": "FROM ONE OH NINE.",
    "key": null,
-   "from": 375,
-   "to": 411
+   "from": 406,
+   "to": 442
   },
   {
    "text": "KEBABS.",
    "key": "KEBABS.",
-   "from": 435,
-   "to": 460
+   "from": 466,
+   "to": 491
   },
   {
    "text": "TWELVE WAYS",
    "key": null,
-   "from": 459,
-   "to": 483
+   "from": 490,
+   "to": 514
   },
   {
    "text": "TO CRAVE.",
    "key": "CRAVE.",
-   "from": 479,
-   "to": 505
+   "from": 510,
+   "to": 536
   },
   {
    "text": "FRIES.",
    "key": "FRIES.",
-   "from": 522,
-   "to": 545
+   "from": 553,
+   "to": 576
   },
   {
    "text": "SEVENTY-NINE.",
    "key": null,
-   "from": 545,
-   "to": 579
+   "from": 576,
+   "to": 610
   }
  ],
  "locationTag": [
-  170,
-  654
+  201,
+  685
  ]
 }
