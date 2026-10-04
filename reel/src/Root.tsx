@@ -11,6 +11,7 @@ import { CoverV17, ReelV17, V17_FRAMES } from "./v17/ReelV17";
 import { LogoCheckV17 } from "./v17/LogoCheck";
 import { CoverV18, ReelV18, V18_FRAMES } from "./v18/ReelV18";
 import { CoverV19, ReelV19, V19_FRAMES } from "./v19/ReelV19";
+import { CoverV20, ReelV20, V20_FRAMES } from "./v20/ReelV20";
 
 export const RemotionRoot: React.FC = () => (
   <>
@@ -29,6 +30,8 @@ export const RemotionRoot: React.FC = () => (
     <Composition id="HungrillzV18Cover" component={CoverV18} durationInFrames={1} {...VIDEO} />
     <Composition id="HungrillzV19" component={ReelV19} durationInFrames={V19_FRAMES} {...VIDEO} />
     <Composition id="HungrillzV19Cover" component={CoverV19} durationInFrames={1} {...VIDEO} />
+    <Composition id="HungrillzV20" component={ReelV20} durationInFrames={V20_FRAMES} {...VIDEO} />
+    <Composition id="HungrillzV20Cover" component={CoverV20} durationInFrames={1} {...VIDEO} />
     <Composition id="LogoCheckV17" component={LogoCheckV17} durationInFrames={1} width={1200} height={900} fps={30} />
     <Composition id="TestFrame" component={TestFrame} durationInFrames={30} {...VIDEO} />
     <Composition id="BrandCheck" component={BrandCheck} durationInFrames={1} {...VIDEO} />
